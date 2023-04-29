@@ -699,6 +699,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+.footerImg img:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 2px solid white;
+  transition: ease 1s;
+}
+
 
 /* **************** About Me **************************/
 .aboutme{
