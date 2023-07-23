@@ -5,6 +5,7 @@ import contrianand from "../assets/contrianand.png"
 import certiBin from "../assets/certiBin.png"
 import TrackVisibility from 'react-on-screen';
 import img1 from "../assets/socialintern.png"
+import img2 from "../assets/school.png"
 import {GoPrimitiveDot} from "react-icons/go";
 export const Experience= () => {
   const experiences = [
@@ -27,7 +28,12 @@ export const Experience= () => {
           title: "Anand",
           description: "Grievance Portal",
           imgUrl: contrianand,
-        },
+    },
+    {
+      title: "White Wings School",
+      description: "School",
+      imgUrl: img2,
+    },
     ];
     
   return (
@@ -48,7 +54,7 @@ export const Experience= () => {
                 
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <div className="internHeading"><span>Internship / Full Stack Developer</span><span>Hybrid Work / <span className="comp"><a href="https://app.socialveins.com/" style={{ textDecoration : 'none'}}>Socialveins</a><GoPrimitiveDot style={{color:'green'}}/></span> </span></div>
+                      <div className="internHeading"><span>Internship / Full Stack Developer</span><span>Hybrid Work / <span className="comp"><a href="https://app.socialveins.com/" style={{ textDecoration : 'none'}}>Socialveins</a><GoPrimitiveDot style={{color:'red'}}/></span> </span></div>
                     <div className="exper">
                       <div className="experienceCard" id="experienceCar">
                          <ProjectCard
@@ -93,16 +99,54 @@ export const Experience= () => {
                 </Tab.Container>
 
                  {/* contribution */}
-                <h2>Contribute</h2>
-                <p>Here is my Contribution.</p>
+                <h2>Real World Projects</h2>
+                
                 <hr />
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                
-                  
-               
                 <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                   <Tab.Pane eventKey="first">
-                    <div className="internHeading"><span>Contribute / Full Stack Developer</span><span>Remote Work / <a href="https://hemabangles.com/" style={{ textDecoration : 'none'}}> hemabangles.com</a><GoPrimitiveDot style={{color:'green'}}/></span></div>
+                    <div className="internHeading"><span><a href="https://whitewingsjaipur.in/" style={{ textDecoration : 'none'}}> white wings school</a><GoPrimitiveDot style={{color:'green'}}/></span></div>
+                    <div className="exper">
+                    <div className="experienceCard" id="experienceCar">
+                       <ProjectCard
+                      {...experiences[4]}
+                      />
+
+                      <table className="experienceDetail">
+                          <ul>
+                            <li>Developed and maintained streamlined, reusable, and reliable code for White Wings Pre‑School.</li>
+                            <li>Utilized Express.js to build a robust and scalable backend infrastructure, handling data management, authentication, and other server‑side functionalities.</li>
+                           
+                          </ul>                     
+                      </table>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div className="internHeading"><span><a href="https://anandgrievanceportal.onrender.com/#" style={{ textDecoration : 'none'}}>Anand Grievance Portal</a> <GoPrimitiveDot style={{color:'green'}}/></span></div>
+                    <div className="exper">
+                    <div className="experienceCard" id="experienceCar">
+                       <ProjectCard
+                      {...experiences[3]}
+                      />
+
+                      <table className="experienceDetail">
+                          <ul>
+                            <li>Enabled direct email forwarding: Implemented a feature that allows grievances submitted automatically forwarded to the respective departments.</li>
+                            <li>Utilized AngularJS: Employed the AngularJS framework to build the front‑end of the student grievance registration portal.</li>                          
+                          </ul>                     
+                      </table>
+                      </div>
+                    </div>
+                    
+                  </Tab.Pane>
+                </Tab.Content>
+                </Tab.Container>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <h2>Contribute</h2>
+                <hr className="myhr"/>  
+                <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Pane eventKey="first">
+                  <div className="internHeading"><span>Contribute</span><span>Remote Work / <a href="https://hemabangles.com/" style={{ textDecoration : 'none'}}> hemabangles.com</a><GoPrimitiveDot style={{color:'green'}}/></span></div>
                     <div className="exper">
                     <div className="experienceCard" id="experienceCar">
                        <ProjectCard
@@ -118,27 +162,8 @@ export const Experience= () => {
                       </table>
                       </div>
                     </div>
-                    <hr/>
-                    <div className="internHeading"><span>Contribute / Full Stack Developer</span><span>Remote Work / <a href="https://anandgrievanceportal.onrender.com/#" style={{ textDecoration : 'none'}}>Anand Grievance Portal</a> <GoPrimitiveDot style={{color:'green'}}/></span></div>
-                    <div className="exper">
-                    <div className="experienceCard" id="experienceCar">
-                       <ProjectCard
-                      {...experiences[3]}
-                      />
-
-                      <table className="experienceDetail">
-                          <ul>
-                            <li>Developed applications (coding).</li>
-                            <li>Debugging and testing code.</li>
-                            <li>Angular for frontend.</li>
-                            <li>MongoDb for DataBase.</li>
-                            <li>Database Migration.</li>
-                            <li>Node.js & Express.js for backend</li>
-                          </ul>                     
-                      </table>
-                      </div>
-                    </div>
-                    
+               
+                                
                   </Tab.Pane>
                 </Tab.Content>
               </Tab.Container>
