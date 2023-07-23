@@ -4,7 +4,7 @@ import meR from "../assets/meR.jpeg"
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import Chat from "./Chat";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -48,6 +48,7 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
+      <Chat />
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
