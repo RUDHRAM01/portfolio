@@ -4,12 +4,30 @@ import colorSharp2 from "../assets/color-sharp2.png";
 import pic1 from "../assets/pic1.png";
 import pic2 from "../assets/pic2.png"
 import pic3 from "../assets/pic3.png"
+import pic4 from "../assets/finance.png"
+import pic5 from "../assets/chat.png"
+import pic6 from "../assets/pizza.png"
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Finance Tracker",
+      description: <a className="myan" href="https://github.com/RUDHRAM01/finance-tracker">Explore</a>,
+      imgUrl: pic4,
+    },
+    {
+      title: "Chat Bot",
+      description: <a className="myan" href="https://github.com/RUDHRAM01/chat-bot">Explore</a>,
+      imgUrl: pic5,
+    },
+    {
+      title: "Pizza Store",
+      description: <a className="myan" href="https://github.com/RUDHRAM01/pizzastore-client">Explore</a>,
+      imgUrl: pic6,
+    },
     {
       title: "Portfolio",
       description: <a className="myan" href="#home">Explore</a>,
