@@ -113,7 +113,7 @@ export const Experience= () => {
                       />
 
                       <table className="experienceDetail">
-                          <ul>
+                          <ul style={{textAlign:'justify'}}>
                             <li>Developed and maintained streamlined, reusable, and reliable code for White Wings Pre‑School.</li>
                             <li>Utilized Express.js to build a robust and scalable backend infrastructure, handling data management, authentication, and other server‑side functionalities.</li>
                            
@@ -130,7 +130,7 @@ export const Experience= () => {
                       />
 
                       <table className="experienceDetail">
-                          <ul>
+                          <ul style={{textAlign:'justify'}}>
                             <li>Enabled direct email forwarding: Implemented a feature that allows grievances submitted automatically forwarded to the respective departments.</li>
                             <li>Utilized AngularJS: Employed the AngularJS framework to build the front‑end of the student grievance registration portal.</li>                          
                           </ul>                     
