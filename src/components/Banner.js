@@ -58,7 +58,7 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>Hi! My Name is Rudhram Saraswat</h1>
                   <h1>{`I'm into `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack", "Competitive Programming", "Data Science" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Third-Year Undergraduate Student at Anand International College of Engineering ,Jaipur.</p>
+                  <p>Final-Year Undergraduate Student at Anand International College of Engineering ,Jaipur.</p>
                   <a href="#connect" style={{ textDecoration: 'none' }}><button >Let’s Connect <ArrowRightCircle size={25} /></button></a>
                 </div>}
             </TrackVisibility>
