@@ -22,7 +22,7 @@ export default function AboutMe() {
                             <Card variant="outlined">
                                 <CardContent>
                                     <Typography style={{textAlign:'justify'}}>
-                                        3rd Year Undergraduate Student at Anand International College of Engineering in the department of Artificial Intelligence. Experienced Full Stack Developer with one and half year working on web applications using react, node, express, and MongoDB. Comprehensive understanding of JavaScript/ES6 areas. Seeking a career in software and web development in a challenging environment where I can utilize my technical skills towards the development and implementation of new ideas.
+                                        Final Year Undergraduate Student at Anand International College of Engineering in the department of Artificial Intelligence. Experienced Full Stack Developer with one and half year working on web applications using react, node, express, and MongoDB. Comprehensive understanding of JavaScript/ES6 areas. Seeking a career in software and web development in a challenging environment where I can utilize my technical skills towards the development and implementation of new ideas.
                                     </Typography>
                                     <Box style={{ marginTop: '15px' }}>
                                         <Typography>
