@@ -4,10 +4,11 @@ import { FcReading } from 'react-icons/fc'
 import meR from "../assets/meR.jpeg"
 import back from "../assets/backimg.jpg"
 import { CardContent, Typography , Container , Stepper ,StepContent , Grid, Box, Card, Step, StepLabel} from '@mui/material';
+import ParticlesBackground from './Particle'
 export default function AboutMe() {
     return (
         <>
-
+            <ParticlesBackground />
             <div className='aboutme'>
                 <div className='aboutme-head'>
                     <div className="myimgDiv">
