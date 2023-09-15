@@ -42,6 +42,8 @@ export const Contact = ({isloading, setIsLoading}) => {
     }
     try {
       await axios.post("http://13.233.237.103:3000", formDetails)
+      setTimeout(() => { 
+      }, 3000);
     } catch (err) {
       console.log(err)
     }
