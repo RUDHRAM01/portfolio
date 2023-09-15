@@ -15,7 +15,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Finance Tracker",
-      description: <a className="myan" href="https://github.com/RUDHRAM01/finance-tracker">Explore</a>,
+      description: <a className="myan" href="http://13.233.237.103:8000/dashboard">Explore</a>,
       imgUrl: pic4,
     },
     {

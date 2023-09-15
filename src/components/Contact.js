@@ -41,7 +41,7 @@ export const Contact = ({isloading, setIsLoading}) => {
       return;
     }
     try {
-      await axios.post("https://rs-mail.onrender.com", formDetails)
+      await axios.post("http://13.233.237.103:3000", formDetails)
     } catch (err) {
       console.log(err)
     }
