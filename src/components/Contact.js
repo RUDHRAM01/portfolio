@@ -41,15 +41,21 @@ export const Contact = ({isloading, setIsLoading}) => {
       return;
     }
     try {
-      await axios.post("http://13.233.237.103:3000", formDetails)
-      setTimeout(() => { 
-      }, 3000);
+     const ok = await axios.post("http://13.233.237.103:3000", formDetails);
+      console.log(ok);
+      setIsLoading(false); 
+      setButtonText('Send');
     } catch (err) {
-      console.log(err)
+      console.log(err);
+      setIsLoading(false); // Handle the loading state here if there's an error
+      setButtonText('Error!');
+
+      setTimeout(() => {
+        setButtonText('Send');
+      }, 2000);
     }
-    setIsLoading(true);
-    setButtonText('Send');
   };
+  
 
   return (
     <>
