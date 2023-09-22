@@ -41,10 +41,14 @@ export const Contact = ({isloading, setIsLoading}) => {
       return;
     }
     try {
-     const ok = await axios.post("http://13.233.237.103:3000", formDetails);
+     const ok = await axios.post("https://rs-mail.onrender.com", formDetails);
       console.log(ok);
       setIsLoading(false); 
-      setButtonText('Send');
+      setButtonText('Thank you!');
+      setTimeout(() => {
+        setButtonText('Send');
+        setFormDetails(formInitialDetails);
+      }, 2000);
     } catch (err) {
       console.log(err);
       setIsLoading(false); // Handle the loading state here if there's an error
