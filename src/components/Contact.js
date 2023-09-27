@@ -41,7 +41,7 @@ export const Contact = ({isloading, setIsLoading}) => {
       return;
     }
     try {
-     const ok = await axios.post("http://13.233.237.103/api/", formDetails);
+     const ok = await axios.post("https://rs-mail.onrender.com/", formDetails);
       console.log(ok);
       setIsLoading(false); 
       setButtonText('Thank you!');
