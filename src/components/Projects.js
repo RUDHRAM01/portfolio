@@ -47,7 +47,7 @@ export const Projects = () => {
 
   return (
     <section className="project" id="projects">
-      <Container>
+      <Container style={{backgroundColor : "black",borderRadius : "64px"}}>
         <Row>
           <Col size={12}>
             <TrackVisibility>

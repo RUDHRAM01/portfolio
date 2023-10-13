@@ -1,8 +1,25 @@
-import meter1 from "../assets/meter1.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/color-sharp.png"
-
+import ReactIcon from "../assets/react.png"
+import NodeIcon from "../assets/node.png"
+import ExpressIcon from "../assets/exp.png"
+import MongoIcon from "../assets/mongo.png"
+import SqlIcon from "../assets/sql.png"
+import FramerIcon from "../assets/framer.png"
+import HtmlIcon from "../assets/html.png"
+import CssIcon from "../assets/css.png"
+import JavascrIcon from "../assets/javascr.png"
+import Boot from "../assets/boot.png"
+import Git from "../assets/git.png"
+import GitHub from "../assets/github.png"
+import Ml from "../assets/mac.png"
+import C from "../assets/C.png"
+import Cl from "../assets/c++.png"
+import Python from "../assets/python.png"
+import Java from "../assets/java.png"
+import AWS from "../assets/aws.png"
+import CICD from "../assets/cicd.png"
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -26,89 +43,94 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
+      <div className="container">
+        
             <div className="row">
+
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                          <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" autoPlay autoPlaySpeed={1000}>
+              <div className="item">
+                                <img src={AWS} alt="Machine Learning" />
+                                <h5>AWS</h5>
+                              </div>
                           <div className="item">
-                                <img src={meter1} alt="React.js" />
+                                <img src={ReactIcon} alt="React.js" />
                                 <h5>React.js</h5>
                               </div>
                               <div className="item">
-                                <img src={meter1} alt="Node.js" />
+                                <img src={NodeIcon} alt="Node.js" />
                                 <h5>Node.js</h5>
                               </div>
                               <div className="item">
-                                <img src={meter1} alt="Express.js" />
+                                <img src={ExpressIcon} alt="Express.js" />
                                 <h5>Express.js</h5>
                               </div>
                               <div className="item">
-                                <img src={meter1} alt="MongoDb" />
+                                <img src={MongoIcon} alt="MongoDb" />
                                 <h5>MongoDb</h5>
                               </div>
                               <div className="item">
-                                <img src={meter1} alt="SQL" />
+                                <img src={SqlIcon} alt="SQL" />
                                 <h5>SQL</h5>
                               </div>
+                             
                               <div className="item">
-                                <img src={meter1} alt="i18n" />
-                                <h5>i18n</h5>
-                              </div>
-                              <div className="item">
-                                <img src={meter1} alt="Framer Motion" />
+                                <img src={FramerIcon} alt="Framer Motion" />
                                 <h5>Framer Motion</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="HTML" />
+                                <img src={HtmlIcon} alt="HTML" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="CSS" />
+                                <img src={CssIcon} alt="CSS" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="JavaScript" />
+                                <img src={JavascrIcon} alt="JavaScript" />
                                 <h5>JavaScript</h5>
                             </div>
                               <div className="item">
-                                <img src={meter1} alt="Bootstrap" />
+                                <img src={Boot} alt="Bootstrap" />
                                 <h5>Bootstrap</h5>
                             </div>
+                            
                               <div className="item">
-                                <img src={meter1} alt="WordPress" />
-                                <h5>WordPress</h5>
-                              </div>
-                              <div className="item">
-                                <img src={meter1} alt="Git" />
+                                <img src={Git} alt="Git" />
                                 <h5>Git</h5>
                            </div>
                             <div className="item">
-                                <img src={meter1} alt="GitHub" />
+                                <img src={GitHub} alt="GitHub" />
                                 <h5>GitHub</h5>
-                           </div>
-                            <div className="item">
-                                <img src={meter1} alt="Machine Learning" />
-                                <h5>Machine Learning</h5>
+                </div>
+                <div className="item">
+                                <img src={CICD} alt="Machine Learning" />
+                                <h5>CI & CD</h5>
                               </div>
+                            <div className="item">
+                                <img src={Ml} alt="Machine Learning" />
+                                <h5>Machine Learning</h5>
+                </div>
+                
               </Carousel>
               <h2>Languages</h2>
-              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" autoPlay autoPlaySpeed={1000}>
                             <div className="item">
-                                <img src={meter1} alt="C" />
+                                <img src={C} alt="C" />
                                 <h5>C</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="C++" />
+                                <img src={Cl} alt="C++" />
                                 <h5>C++</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Python" />
+                                <img src={Python} alt="Python" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Java" />
+                                <img src={Java} alt="Java" />
                                 <h5>Java</h5>
                             </div>
                         </Carousel>

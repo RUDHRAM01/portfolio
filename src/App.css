@@ -377,20 +377,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-/* .banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-} */
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
@@ -405,6 +392,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experienceCard{
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .myhr{
   background-color: #666;
@@ -430,7 +418,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   padding: 20px 20px 30px 50px;
   font-size: 1.2rem;
+  background-color: black;
 }
+
+
 .internHeading h3{
   color: #B8B8B8;
 }
@@ -438,17 +429,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+
 }
 .skill-bx {
-  background: #151515;
+  background-color: black;
+  border: white  solid;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  
 }
+
+
+
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+
 }
 .skill p {
     color: #B8B8B8;
@@ -478,6 +476,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
+ 
 }
 .project h2 {
 	font-size: 45px;
@@ -492,6 +491,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+  
 }
 .project .nav.nav-pills {
   width: 72%;
