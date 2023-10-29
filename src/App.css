@@ -857,6 +857,7 @@ ul li{
 .myabout{
   height: 6vh;
   border-radius: 50%;
+  width: 6vh;
 }
 
 .mycontactlink{
