@@ -67,7 +67,7 @@ export const Banner = () => {
             <TrackVisibility>
               <div className="myimgDiv">
                 <img className='myImg' src={meR} alt="Header Img" />
-                <a href="https://drive.google.com/file/d/1Y_sddOqw0rRXDLgMT0Tj7aoLweLX7TUg/view" style={{ textDecoration: "none" }} download>
+                <a href="https://drive.google.com/file/d/1bekt2pXzFe7xr3nqPBzRy0vCGqg77AOd/view?usp=sharing" style={{ textDecoration: "none" }} download>
 
                   <button className="resumeBtn">
                     <span class="circle1"></span>
