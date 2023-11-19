@@ -15,7 +15,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Finance Tracker",
-      description: <a className="myan" href="http://3.111.58.206/api/dashboard">Explore</a>,
+      description: <a className="myan" href="https://finance-tracker-8h7t.onrender.com/">Explore</a>,
       imgUrl: pic4,
     },
     {
