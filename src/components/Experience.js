@@ -134,7 +134,7 @@ export const Experience = () => {
                           <table className="experienceDetail">
                             <ul style={{ textAlign: 'justify' }}>
                               <li>Enabled direct email forwarding: Implemented a feature that allows grievances submitted automatically forwarded to the respective departments.</li>
-                              <li>Utilized AngularJS: Employed the AngularJS framework to build the front‑end of the student grievance registration portal.</li>
+                              <li>Implemented the front end of the student grievance portal by leveraging the EJS template engine.</li>
                             </ul>
                           </table>
                         </div>
