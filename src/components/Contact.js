@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/contact-img.svg";
 import TrackVisibility from 'react-on-screen';
-import { BsFillTelephoneFill } from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
-import { BiMap } from 'react-icons/bi'
-import { AiFillLinkedin } from 'react-icons/ai'
+import Mail from "../assets/mail.svg"
+import LinkedIn from "../assets/linkedin.svg"
+import Location from "../assets/location.svg"
+import Whatsapp from "../assets/whatsapp.svg"
 import axios from 'axios';
 import validator from 'validator';
 import Button from '@mui/material/Button'
@@ -69,7 +69,7 @@ export const Contact = ({isloading, setIsLoading}) => {
           <h2>Get In Touch</h2>
         </div>
         <div className='mycontactlink'>
-          <div className='linkbody'><div className='mycon'><BsFillTelephoneFill className='myconok' />  (+91) 9587909621</div><a className='mylinkedin' href="https://www.linkedin.com/in/rudhram-saraswat-396487209/"><div className='mycon'><AiFillLinkedin className='myconok' /> Linkedin</div></a><div className='mycon'><BiMap className='myconok' /> Jaipur,Rajasthan</div><div className='mycon'><AiOutlineMail className='myconok' /> rudhramsaraswat2770@gmail.com</div></div>
+          <div className='linkbody'><a href="https://wa.me/message/OFVSVOJV7KAQI1" className='mylinkedin'><div className='mycon'><img src={Whatsapp} alt="" style={{height:"20px"}}/> whatsApp</div></a><a className='mylinkedin' href="https://www.linkedin.com/in/rudhram-saraswat-396487209/"><div className='mycon'><img src={LinkedIn} alt="" style={{height:"20px"}}/> Linkedin</div></a><div className='mycon'><img src={Location} alt="" style={{height:"20px"}}/> Jaipur,Rajasthan</div><div className='mycon'><img src={Mail} alt="" style={{height:"20px"}}/> rudhramsaraswat2770@gmail.com</div></div>
         </div>
         <Container>
 
