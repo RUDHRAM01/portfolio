@@ -40,7 +40,7 @@ export const Projects = () => {
     },
     {
       title: "Netflix",
-      description: <a className="myan" href="https://rudhram-netflix.netlify.app/">Explore</a>,
+      description: <a className="myan" href="https://netflix-private.vercel.app/">Explore</a>,
       imgUrl: pic3,
     },
   ];
