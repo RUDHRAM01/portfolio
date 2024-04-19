@@ -2,17 +2,23 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/color-sharp2.png";
 import pic1 from "../assets/pic1.png";
-import pic2 from "../assets/pic2.png"
+// import pic2 from "../assets/pic2.png"
 import pic3 from "../assets/pic3.png"
 import pic4 from "../assets/finance.png"
 import pic5 from "../assets/chat.png"
 import pic6 from "../assets/pizza.png"
+import ChatApp from "../assets/chatapp.png"
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Real Time Chatting Application",
+      description: <a className="myan" href="https://chat-app-rs.netlify.app/">Explore</a>,
+      imgUrl: ChatApp,
+    },
     {
       title: "Finance Tracker",
       description: <a className="myan" href="https://finance-tracker-8h7t.onrender.com/">Explore</a>,
@@ -27,11 +33,6 @@ export const Projects = () => {
       title: "Pizza Store",
       description: <a className="myan" href="https://github.com/RUDHRAM01/pizzastore-client">Explore</a>,
       imgUrl: pic6,
-    },
-    {
-      title: "Portfolio",
-      description: <a className="myan" href="#home">Explore</a>,
-      imgUrl: pic2,
     },
     {
       title: "Banking System",

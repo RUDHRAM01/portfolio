@@ -41,7 +41,7 @@ function App() {
         <Experience />
         <Skills />
         <Projects />
-            <Contact isloading={isloading} setIsLoading={setIsLoading} />
+        <Contact isloading={isloading} setIsLoading={setIsLoading} />
         <Footer />
         </div> 
       )}

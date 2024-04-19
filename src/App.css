@@ -427,9 +427,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  min-height: 80vh;
   position: relative;
-
+  padding: 100px 0;
 }
 .skill-bx {
   background-color: black;
@@ -437,7 +437,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 60px;
   
 }
 
@@ -474,9 +474,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  min-height: 100vh;
   position: relative;
- 
+  padding: 100px 0;
 }
 .project h2 {
 	font-size: 45px;
@@ -491,7 +491,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
-  
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -1019,4 +1018,131 @@ ul li{
   to {
     transform: rotate(-360deg);
   }
+}
+
+
+/* new */
+
+#experiences{
+  height: 220vh;
+}
+.vertical-line{
+  border-left: 8px solid #fff;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  z-index: 9;
+}
+
+.vertical-dot{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.vertical-ele{
+  position: absolute;
+  left: 55%;
+  top: 10%;
+  background-color: #fff;
+  color: #0D6EFD;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.v-bottom{
+ top: 104%;
+}
+
+
+.exp-containers{
+  position: relative;
+  top: 16%;
+  width: 100%;
+  height: 100vh;
+}
+
+.exp-cont{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.exp-cont .child-1{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.exp-data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.exp-data .exp-des{
+  margin-top: 0;;
+}
+.exp-data h4{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.exp-duration{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.exp-duration p{
+  width: fit-content !important;
+  margin: 0 10px;
+}
+.exp-dash-line{
+  height: 5px;
+  width: 10%;
+  background-color: #fff;
+}
+
+.exp-comp-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.add-img-filter{
+  filter: grayscale(100%) brightness(0) invert(1);
+  border: 2px solid #fff;
+}
+
+.exp-position{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.exp-tech{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-tech img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
 }
