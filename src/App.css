@@ -1075,6 +1075,7 @@ ul li{
   left: 50%;
   width: 50%;
   margin-top: 20px;
+  background-color: black;
 }
 
 .exp-cont .child-1{
@@ -1098,6 +1099,7 @@ ul li{
   text-align: center;
   margin-top: 10px;
 }
+
 
 .exp-duration{
   display: flex;
@@ -1139,10 +1141,14 @@ ul li{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .exp-tech img{
   width: 36px;
   height: 36px;
   border-radius: 50%;
+  border: 2px solid #fff;
 }
