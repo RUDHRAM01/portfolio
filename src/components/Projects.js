@@ -18,31 +18,37 @@ export const Projects = () => {
       title: "Real Time Chatting Application",
       description: <a className="myan" href="https://chat-app-rs.netlify.app/">Explore</a>,
       imgUrl: ChatApp,
+      github: "https://ghbtns.com/github-btn.html?user=RUDHRAM01&repo=web-socket-server&type=star&count=true&size=large"
     },
     {
       title: "Finance Tracker",
       description: <a className="myan" href="https://finance-tracker-8h7t.onrender.com/">Explore</a>,
       imgUrl: pic4,
+      github: "https://ghbtns.com/github-btn.html?user=RUDHRAM01&repo=finance-tracker&type=star&count=true&size=large"
     },
     {
       title: "Chat Bot",
       description: <a className="myan" href="https://github.com/RUDHRAM01/chat-bot">Explore</a>,
       imgUrl: pic5,
+      github: "https://ghbtns.com/github-btn.html?user=RUDHRAM01&repo=chat-bot&type=star&count=true&size=large"
     },
     {
       title: "Pizza Store",
       description: <a className="myan" href="https://github.com/RUDHRAM01/pizzastore-client">Explore</a>,
       imgUrl: pic6,
+      github: "https://ghbtns.com/github-btn.html?user=RUDHRAM01&repo=pizzastore-client&type=star&count=true&size=large"
     },
     {
       title: "Banking System",
       description: <a className="myan" href="https://rs-banking.netlify.app/">Explore</a>,
       imgUrl: pic1,
+      github: "https://ghbtns.com/github-btn.html?user=RUDHRAM01&repo=rs-banking&type=star&count=true&size=large"
     },
     {
       title: "Netflix",
       description: <a className="myan" href="https://netflix-private.vercel.app/">Explore</a>,
       imgUrl: pic3,
+      github: "https://ghbtns.com/github-btn.html?user=RUDHRAM01&repo=netflix-private&type=star&count=true&size=large"
     },
   ];
 
